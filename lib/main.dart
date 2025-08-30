@@ -1,3 +1,4 @@
+import 'package:arch/person_indo.dart';
 import 'package:arch/terms.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
           // tested with just a hot reload.
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         ),
-        home: const TermsConditionScreen(),
+        home: const PersonalInfoScreen(),
       ),
     );
   }
